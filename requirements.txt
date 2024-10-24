@@ -1,0 +1,7 @@
+streamlit==1.33.0 # For APP UI and deployment
+tensorflow==2.16.1 # For model training and prediction
+numpy==1.26.4 # For numerical operations
+keras==3.2.1 # For model training and prediction
+matplotlib==3.8.3 # For plotting
+pandas==2.2.1 # For data manipulation
+scikit-learn==1.4.2 # For metrics calculation
