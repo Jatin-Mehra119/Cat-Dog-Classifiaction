@@ -18,14 +18,12 @@ def preprocess_image(image_path, target_size=(160, 160)):
     Returns:
         np.ndarray: The preprocessed image ready for prediction.
     """
+    
     # Load the image with the specified target size
     image = load_img(image_path, target_size=target_size)
     
     # Convert the image to a NumPy array
     image_array = img_to_array(image)
-    
-    # Scale the pixel values to the range [0, 1]
-    image_array = image_array / 255.0
     
     # Expand dimensions to match the model's input shape (1, height, width, channels)
     image_array = np.expand_dims(image_array, axis=0)
