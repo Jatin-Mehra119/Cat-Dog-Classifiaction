@@ -24,7 +24,6 @@ The training code (provided separately) includes:
 
 The repository includes an `app.py` script to deploy the model using **Streamlit**. The app allows users to upload an image of a cat or a dog, and it returns the predicted class.
 
-## Screenshots-
 
 # Cat and Dog Classifier
 
