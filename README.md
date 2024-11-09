@@ -20,29 +20,6 @@ The training code (provided separately) includes:
 -   Applying data augmentation to improve generalization.
 -   Fine-tuning the model to boost performance.
 
-## Deployment
-
-The repository includes an `app.py` script to deploy the model using **Streamlit**. The app allows users to upload an image of a cat or a dog, and it returns the predicted class.
-
-
-# Cat and Dog Classifier
-
-[Cat/Dog Classifier APP](https://cat-dog-clf.streamlit.app/)
-
-This repository contains a deep learning-based image classification model to distinguish between images of cats and dogs. The model is built using TensorFlow and Keras, and the app is deployed using Streamlit for easy interaction.
-
-## Model Training
-
-The model is trained using transfer learning. It uses MobileNetV2 as the base model with pre-trained weights from ImageNet. The final dense layers are added for binary classification. The model is then fine-tuned to enhance its accuracy.
-
-## Training Script
-
-The training code (provided separately) includes:
-
--   Loading and preprocessing the dataset.
--   Building a CNN using MobileNetV2.
--   Applying data augmentation to improve generalization.
--   Fine-tuning the model to boost performance.
 
 ## Deployment
 
